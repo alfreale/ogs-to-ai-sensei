@@ -38,6 +38,7 @@ function injectButton() {
 
   const innerDiv = document.createElement("div");
   const link = document.createElement("a");
+  link.style.paddingLeft = "2px";
   link.href = "https://ai-sensei.com/upload?sgf=" + encodeURIComponent(window.location.href);
   link.target = "_blank";
 
@@ -51,7 +52,11 @@ function injectButton() {
   icon.appendChild(img);
 
   link.appendChild(icon);
-  link.appendChild(document.createTextNode("AI Sensei"));
+  const textNode = document.createTextNode("AI Sensei");
+  const span = document.createElement("span");
+  span.style.paddingLeft = "3px";
+  span.appendChild(textNode);
+  link.appendChild(span);
 
   innerDiv.appendChild(link);
   customDiv.appendChild(innerDiv);
