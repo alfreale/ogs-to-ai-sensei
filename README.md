@@ -1,8 +1,6 @@
 # ogs-to-ai-sensei
 A Chrome extension that uploads your OGS game to AI Sensei with one click.
 
-![Example](example.png)
-
 ## Installation
 
 ### Chrome Installation
@@ -13,3 +11,6 @@ A Chrome extension that uploads your OGS game to AI Sensei with one click.
 5. Select the `extension` folder from this repository
 6. The extension should now appear in your Chrome extensions list
 7. Pin the extension to your toolbar for easy access
+
+![Example](example.png)
+
